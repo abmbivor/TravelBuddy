@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/dest">
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:layout_above="@+id/touristspotbutton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/tab_strip"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textColor="#212121"
+            android:textSize="60px"
+            />
+
+    </android.support.v4.view.ViewPager>
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="Available Transports :"-->
+        <!--android:textStyle="bold"-->
+        <!--android:id="@+id/transportstextView" />-->
+
+    <!--<ListView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="79dp"-->
+        <!--android:id="@+id/transportslistView"-->
+        <!--android:choiceMode="none"-->
+        <!--android:layout_weight="0.39"-->
+        <!--tools:listitem="@android:layout/simple_list_item_1" />-->
+
+    <!--<TextView-->
+        <!--android:paddingTop="15dp"-->
+        <!--android:paddingBottom="15dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="Available Hotels :"-->
+        <!--android:textStyle="bold"-->
+        <!--android:id="@+id/hoteltextView" />-->
+
+    <!--<ListView-->
+        <!--android:layout_width="335dp"-->
+        <!--android:layout_height="104dp"-->
+        <!--android:id="@+id/hotellistView"-->
+        <!--android:choiceMode="none"-->
+        <!--android:layout_weight="0.33"-->
+        <!--tools:listitem="@android:layout/simple_list_item_1" />-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Tourist Spots"
+        android:id="@+id/touristspotbutton"
+        android:onClick="seeSpots"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

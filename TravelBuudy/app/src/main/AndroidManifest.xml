@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sesipuser.travelbuudy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splash"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".login"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".home"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Home"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".destination"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Destination Info"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".touristspots"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Tourist Spots"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".spotDetails"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Spot Details"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".registration"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Registration"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".submitReview"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Review"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".forumPost"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Forum"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".forum"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".threadDetails"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

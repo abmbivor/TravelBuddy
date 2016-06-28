@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">TravelBuddy</string>
+    <string name="spotList"><u>List of Tourist Spots : </u></string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username :</string>
+    <string-array name="source_list">
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+        <item>Sylhet</item>
+        <item>Rajshahi</item>
+        <item>Rangpur</item>
+        <item>Khulna</item>
+        <item>Barisal</item>
+    </string-array>
+    <string-array name="dest_list">
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+        <item>Sylhet</item>
+        <item>Rajshahi</item>
+        <item>Rangpur</item>
+        <item>Khulna</item>
+        <item>Barisal</item>
+    </string-array>
+    <string-array name="transport_list">
+        <item>Hanif</item>
+        <item>Shohag</item>
+        <item>Shyamoli</item>
+        <item>Babul</item>
+        <item>SA Paribahan</item>
+    </string-array>
+    <string-array name="hotel_list">
+        <item>Shahajahan</item>
+        <item>Raj</item>
+        <item>Dream World</item>
+        <item>Akbar</item>
+        <item>Anarkali</item>
+    </string-array>
+    <string-array name="spots_list">
+        <item>HumHum</item>
+        <item>MadhobKundo</item>
+        <item>Jaflong</item>
+        <item>LalaKhal</item>
+    </string-array>
+    <string name="title_activity_splash">splash</string>
+
+
+</resources>

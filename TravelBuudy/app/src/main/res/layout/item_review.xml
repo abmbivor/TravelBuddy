@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/reviewText"
+        android:layout_gravity="top"
+        android:layout_weight="1"
+        android:textColor="#212121"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Reviewed By :"
+            android:id="@+id/reviewedBy"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/usernameText"
+            android:layout_toStartOf="@+id/usernameText"
+            android:layout_marginRight="27dp"
+            android:layout_marginEnd="27dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/usernameText"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="79dp"
+            android:layout_marginEnd="79dp"
+            android:textColor="#3F51B5"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="On :"
+            android:id="@+id/textView21"
+            android:layout_below="@+id/reviewedBy"
+            android:layout_alignRight="@+id/reviewedBy"
+            android:layout_alignEnd="@+id/reviewedBy" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/timeText"
+            android:layout_alignTop="@+id/textView21"
+            android:layout_alignLeft="@+id/usernameText"
+            android:layout_alignStart="@+id/usernameText"
+            android:textColor="#3F51B5"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+</LinearLayout>
